@@ -1,0 +1,113 @@
+/* responsive  Mobile < 740 px*/
+@media only screen and (max-width:46.1875em) {
+    .search-button, .text-content{
+        display: none;
+    }
+    #header .menu-button {
+        display: flex;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 0 41px;
+    }
+    #nav li a {
+        padding: 1px 24px; 
+    }
+
+    .input-search {
+        display: none;
+    }
+    
+    #content .content-section {
+        padding: 64px 0 112px;
+        max-width: 100%;
+        width: 400px;   
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #content .section-about {
+        margin: 0 8px; 
+    }
+    .member-item {
+        width: 100%;
+    }
+
+    /* .tour-section {
+        
+    } */
+    .places {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact-info {
+        width: 100%;
+        text-align: left;
+        line-height: 2;
+    }
+    .contact-mb {
+        margin-bottom: 16px;
+    }
+    
+    .col-half {
+        width: 100%;
+    }
+    .form-submit {
+        width: 100%;
+        padding: 16px 0;
+        font-size: 20px;
+    }
+    .contact-form {
+        width: 100%;
+        text-align: center;
+        margin-top: 32px;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    .buy-ticket {
+        width: 100%;
+    }
+
+
+}
+/* Mobile and Tablet: < 1023px */
+@media (max-width:63.9375em) {
+    .buy-ticket {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info a:hover {
+        color: #004ff2;
+        opacity: 1;
+    }
+    .form-submit {
+        border: none;
+    }
+    #footer a {
+        margin: 0 8px;
+    }
+    .author { 
+        margin-top: 16px;
+    }
+}
